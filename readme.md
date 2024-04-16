@@ -9,19 +9,19 @@ https://woollymittens.github.io/intersection-events/
 ## Instructions
 
 ``` javascript
-    import { IntersectionEvents } from "./intersection-events.js";
+import { IntersectionEvents } from "./intersection-events.js";
 
-    const intersectionEvents = new IntersectionEvents({
-        root: null,
-        rootMargin: "0px 0px 0px 0px",
-        threshold: [0],
-    });
+const intersectionEvents = new IntersectionEvents({
+    root: null,
+    rootMargin: "0px 0px 0px 0px",
+    threshold: [0],
+});
 
-    intersectionEvents.watch(YOUR_ELEMENT);
+intersectionEvents.watch(YOUR_ELEMENT);
 
-    YOUR_ELEMENT.addEventListener("visible", (evt) => {
-        console.log('do this when YOUR_ELEMENT scrolls into view', evt);
-    });
+YOUR_ELEMENT.addEventListener("visible", (evt) => {
+    console.log('do this when YOUR_ELEMENT scrolls into view', evt);
+});
 ```
 
 ## License
