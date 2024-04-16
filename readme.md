@@ -2,6 +2,10 @@
 
 Simplifies the intersection observer so it can be used as an event.
 
+## Example
+
+https://woollymittens.github.io/intersection-events/
+
 ## Instructions
 
 ``` javascript
